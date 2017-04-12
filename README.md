@@ -1,4 +1,5 @@
-<h1> Graph Theory Project By Andrew Carroll </h1>
+# Graph Theory Project 
+# By Andrew Carroll
 
 
 <h1> Introduction </h1>
@@ -15,3 +16,6 @@ work hours – just like the currently used timetabling system at GMIT </p>
 
 <h2> Cypher </h2> 
 <p> a very simple and powerful graph query language that was developed by Neo Technology for its graph database <b> Neo4j </b> it is an SQL-Inspired language for describing patterns in graphs visually using an ascii-art syntax. </p>
+
+<h2> Neo4j </h2> 
+<p> A software program developed by Neo Technology to deal with the management system of graph databases. according to db-engines.com Neo4j it is described as the most popular graph database system.The Neo4j Software is  achieved in Java and accessible from software written in other languages using the Cypher Query Language. </p>
