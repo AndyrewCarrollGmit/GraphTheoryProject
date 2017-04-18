@@ -22,8 +22,8 @@ work hours – just like the currently used timetabling system at GMIT </p>
 
 <h1> Design </h1>
 
-<h2> What is a Node? <h2> 
+<h2> What is a Node? </h2> 
 <p> In graph theory a <b> node </b> or <b> vertex </b>  is the fundamental unit of which graphs are formed </p>
 
-<h2> What is a relationship? <h2> 
+<h2> What is a relationship? </h2> 
 <p> In Neo4j relationships between two nodes are directional meaning that they have a connection. An example of this in my project would be a <b> Lecturer </b> node and a <b> Room </b> node, E.g (LecturerNode: "John Sample")-[TEACHES_IN_ROOM]->(RoomNode:"G0994"), the relationship between the room number and the lecturer is defined by TEACHES_IN_ROOM.   </p>
