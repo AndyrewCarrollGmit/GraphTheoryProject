@@ -85,3 +85,10 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
                               WHERE a.Name = 'Server Side Rad' AND b.name = 'Group A'
                               CREATE (a)-[r:TO]->(b)
                               RETURN a,b,r
+
+<p> The next relationship I linked together was between the rooms and the Time sessions of one hour intervals </p>
+                                 
+                               MATCH (a:Rooms),(b:TimeSession)
+                               WHERE a.RoomNo = 'PF18' AND b.name = '9am-10Am'
+                               CREATE (a)-[r:AT]->(b)
+                               RETURN a,b,r
