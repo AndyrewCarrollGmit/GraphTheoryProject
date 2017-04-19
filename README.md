@@ -68,3 +68,20 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
 
                                 
                              E.G   CREATE (Space1:TimeSession{name:"9am-10Am"})
+
+<h3> Relationships </h3>
+<p> This process of the database took a while to figure out and alot of research  but once I got my head around it, it began to get a bit easier and I was able to work through it. The neo4j documentation site https://neo4j.com/docs/ is very helpful with commands and instruction on how to create nodes and relationships. The first relationship I decided to test out was the between the lecturers and the Subjects:                 
+
+                              MATCH (a:Lecturers),(b:Subjects)
+                              WHERE a.Name = 'Ian McLoughlin' AND b.Name = 'Graph Theory'
+                              CREATE (a)-[r:Teaches]->(b)
+                              RETURN a,b,r
+    
+    The command matches the label lecturers and subjects together and finds the properties (Ian Mcloughlin) & (Graph Theory) and links a  relationship between them by calling it [TEACHES] </p>
+    
+<p> I saw that the command worked perfectly, So I did this for the rest of the remaining nodes for lecturers and subjects, after which I began creating a relationship between the Subjects and the Groups which were wrote in the following manner : </p>
+
+                              MATCH (a:Module),(b:Groups)
+                              WHERE a.Name = 'Server Side Rad' AND b.name = 'Group A'
+                              CREATE (a)-[r:TO]->(b)
+                              RETURN a,b,r
