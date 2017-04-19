@@ -105,3 +105,6 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
                               WHERE a.Name = 'Server Side Rad' AND b.RoomNo = 'G0436'
                               CREATE (a)-[r:IN_LECTURE]->(b)
                               RETURN a,b,r
+
+<h3> Conclusion </h3> 
+<p> In conclusion with this project and after using neo4j I can see it is a very strong tool and application for when creating a graphical database, even though I only touched it on a very small basis, I can see the benefit of using it when creating a graph. The visual aspects of it I found were very helpful and it was easy to understand the relationships between each node once they were created and I could see the linkages between them for myself very cleary. </p>
