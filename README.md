@@ -106,5 +106,18 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
                               CREATE (a)-[r:IN_LECTURE]->(b)
                               RETURN a,b,r
 
-<h3> Conclusion </h3> 
+<h2> Conclusion </h2> 
 <p> In conclusion with this project and after using neo4j I can see it is a very strong tool and application for when creating a graphical database, even though I only touched it on a very small basis, I can see the benefit of using it when creating a graph. The visual aspects of it I found were very helpful and it was easy to understand the relationships between each node once they were created and I could see the linkages between them for myself very cleary. </p>
+
+<h2> References </h2>
+
+
+
+                    https://neo4j.com/docs - Neo4j Documentation
+                    https://en.wikipedia.org/wiki/Graph_theory - Wikipedia about Graph Theory
+                    https://www.tutorialspoint.com/graph_theory/ - Notes On Graph Theory
+                    http://timetable.gmit.ie/ - TImetable For GMIT
+                    http://timetable.gmit.ie/sws1617/(S(hfe5u2ftbt5paznk12urhs55))/default.aspx - Room Selection For GMIT
+                    http://www.tutorialspoint.com/neo4j/ - Notes on Neo4j
+                    PDF Slides Provided by lecturer - Ian Mcloughlin from https://learnonline.gmit.ie/ -
+                    https://notepad-plus-plus.org/download/v7.3.3.html - Used To Help Remove Tags 
