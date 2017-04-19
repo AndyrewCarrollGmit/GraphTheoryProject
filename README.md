@@ -113,12 +113,18 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
 
 
 <p>
-                    https://neo4j.com/docs - Neo4j Documentation
-                    https://en.wikipedia.org/wiki/Graph_theory - Wikipedia about Graph Theory
-                    https://www.tutorialspoint.com/graph_theory/ - Notes On Graph Theory
-                    http://timetable.gmit.ie/ - TImetable For GMIT
-                    http://timetable.gmit.ie/sws1617/(S(hfe5u2ftbt5paznk12urhs55))/default.aspx - Room Selection For GMIT
-                    http://www.tutorialspoint.com/neo4j/ - Notes on Neo4j
-                    PDF Slides Provided by lecturer - Ian Mcloughlin from https://learnonline.gmit.ie/ -
-                    https://notepad-plus-plus.org/download/v7.3.3.html - Used To Help Remove Tags 
+https://neo4j.com/docs - Neo4j Documentation
+                   
+ https://en.wikipedia.org/wiki/Graph_theory - Wikipedia about Graph Theory
+
+  https://www.tutorialspoint.com/graph_theory/ - Notes On Graph Theory
+
+ http://timetable.gmit.ie/ - TImetable For GMIT
+
+ http://timetable.gmit.ie/sws1617/(S(hfe5u2ftbt5paznk12urhs55))/default.aspx - Room Selection For GMIT
+
+ http://www.tutorialspoint.com/neo4j/ - Notes on Neo4j
+  PDF Slides Provided by lecturer - Ian Mcloughlin from https://learnonline.gmit.ie/ -
+
+https://notepad-plus-plus.org/download/v7.3.3.html - Used To Help Remove Tags 
 </p>
