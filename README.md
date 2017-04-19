@@ -92,3 +92,16 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
                                WHERE a.RoomNo = 'PF18' AND b.name = '9am-10Am'
                                CREATE (a)-[r:AT]->(b)
                                RETURN a,b,r
+
+<p> I finally tried to link the different labs and lectures together with the appropiate room and modules for each one, both commands can be seen below here : </p>
+
+                              MATCH (a:Subject),(b:TimeSession)
+                              WHERE a.Name = 'Server Side Rad' AND b.RoomNo = 'G0436 CR5'
+                              CREATE (a)-[r:IN_LAB]->(b)
+                              RETURN a,b,r
+                              
+                              
+                              MATCH (a:Subject),(b:TimeSession)
+                              WHERE a.Name = 'Server Side Rad' AND b.RoomNo = 'G0436'
+                              CREATE (a)-[r:IN_LECTURE]->(b)
+                              RETURN a,b,r
