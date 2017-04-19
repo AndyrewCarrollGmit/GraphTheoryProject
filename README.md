@@ -42,4 +42,15 @@ work hours – just like the currently used timetabling system at GMIT </p>
   
                                E.G   CREATE (Room:Rooms{RoomNo:"G0436 CR5", Capacity: "20"})
 
-To which I gave them two properties  RoomNo & Capacity. </p>
+To which I gave them two properties  RoomNo & Capacity. This was done for each of the room nodes I created. </p>
+
+<h4> Lecturer Node </h4>
+<p> When Creating the nodes for Lecturers it wasnt overally difficult as I knew all the lecturers for semester 2 in 3rd Year So i just began creating a cypher command for each of them as it only 5 lines long. The only property I gave them was their Name Value as it was all I needed, I wrote the cypher command in the following way : </p>
+                          
+                                CREATE (IanMcLoughlin:Lecturers{Name:"Ian McLoughlin"})
+<h4> Groups </h4>
+<p> Groups was another very simple command as there are only 3 groups in our year so it was very quick to create the nodes for this: </p>
+                                 
+                                  CREATE (GroupA:Groups{name:"Group A"})
+                                  CREATE (GroupB:Groups{name:"Group B"})
+                                  CREATE (GroupC:Groups{name:"Group C"})
