@@ -81,7 +81,7 @@ To which I gave them two properties  RoomNo & Capacity. This was done for each o
     
 <p> I saw that the command worked perfectly, So I did this for the rest of the remaining nodes for lecturers and subjects, after which I began creating a relationship between the Subjects and the Groups which were wrote in the following manner : </p>
 
-                              MATCH (a:Module),(b:Groups)
+                              MATCH (a:Subjects),(b:Groups)
                               WHERE a.Name = 'Server Side Rad' AND b.name = 'Group A'
                               CREATE (a)-[r:TO]->(b)
                               RETURN a,b,r
