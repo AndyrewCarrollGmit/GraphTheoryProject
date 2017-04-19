@@ -20,10 +20,26 @@ work hours – just like the currently used timetabling system at GMIT </p>
 <h2> Neo4j </h2> 
 <p> A software program developed by Neo Technology to deal with the management system of graph databases. according to db-engines.com Neo4j it is described as the most popular graph database system.The Neo4j Software is  achieved in Java and accessible from software written in other languages using the Cypher Query Language. To start using the  Neo4j software visit https://neo4j.com/download/ and select the download for the community edition for Individuals. After the download and installation process you can choose your password and begin working with Neo4j to build databases.  </p>
 
-<h1> Design </h1>
-
 <h2> What is a Node? </h2> 
 <p> In graph theory a <b> node </b> or <b> vertex </b>  is the fundamental unit of which graphs are formed </p>
 
 <h2> What is a relationship? </h2> 
 <p> In Neo4j relationships between two nodes are directional meaning that they have a connection. An example of this in my project would be a <b> Lecturer </b> node and a <b> Room </b> node, E.g (LecturerNode: "John Sample")-[TEACHES_IN_ROOM]->(RoomNode:"G0994"), the relationship between the room number and the lecturer is defined by TEACHES_IN_ROOM.   </p>
+
+<h1> Design </h1>
+
+<h3> Building The Database</h3>
+<p> Before diving into create the database straight away, I took out a piece of paper and began doing rough ideas for how I was going to approach the set-up for the database. I decided to base the timetable on Semester 2 of 3rd Year Software Development in GMIT taking from http://timetable.gmit.ie/sws1617/(S(v0rxst45trrrbo55zvzqwgia))/showtimetable.aspx From here I began writing what nodes I needed. So I chose the following to work with:
+                                     
+                                     
+                                      1.Rooms
+                                      2.Lecturers
+                                      3.Groups
+                                      4.Subjects
+                                      5.TimeSessions
+                                      
+  After selecting the nodes for the database, I started to fetch information from the http://timetable.gmit.ie website from the category Rooms here I opened the view page source and copy and pasted the information I needed for all the rooms I would be using. I copied the information into Notepad++ and from here I began removing any unnecessary tags and rooms that were not  needed for my database. After all tags were removed and I was left with the rooms I needed I opened up Neo4j and began to create the <b> Rooms </b> node by preforming the following cypher command for each room: 
+  
+                               E.G   CREATE (Room:Rooms{RoomNo:"G0436 CR5", Capacity: "20"})
+
+To which I gave them two properties  RoomNo & Capacity. </p>
